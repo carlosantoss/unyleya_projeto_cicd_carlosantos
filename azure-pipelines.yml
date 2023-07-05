@@ -22,4 +22,6 @@ stages:
         command: buildAndPush
         repository: 'crlssnts/unyleya_projeto_devops:tagname'
         dockerfile: '**/Dockerfile'
-        containerRegistry: 'Docke
+        containerRegistry: 'Docker Hub Connection'
+        tags: |
+          $(tag)
