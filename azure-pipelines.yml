@@ -20,6 +20,6 @@ stages:
       displayName: Build and push an image to container registry
       inputs:
         command: buildAndPush
-        repository: '<Docker Hub Username>/<Your Repository>'
+        repository: 'crlssnts/unyleya_projeto_devops:tagname'
         dockerfile: '**/Dockerfile'
         containerRegistry: 'Docke
